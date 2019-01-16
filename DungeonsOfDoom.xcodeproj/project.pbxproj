@@ -14,6 +14,16 @@
 		9EA3156621A47D20007D28B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA3156421A47D20007D28B8 /* LaunchScreen.storyboard */; };
 		9EA3157121A47D20007D28B8 /* DungeonsOfDoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3157021A47D20007D28B8 /* DungeonsOfDoomTests.swift */; };
 		9EA3157C21A47D20007D28B8 /* DungeonsOfDoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3157B21A47D20007D28B8 /* DungeonsOfDoomUITests.swift */; };
+		9EA3158A21A48E42007D28B8 /* Heroe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3158921A48E42007D28B8 /* Heroe.swift */; };
+		9EA3158E21A494F9007D28B8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3158D21A494F9007D28B8 /* Item.swift */; };
+		9EC0FF1221A5A26A00A56CAC /* Monstruo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0FF1121A5A26A00A56CAC /* Monstruo.swift */; };
+		9EC0FF1421A5A70F00A56CAC /* Stuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0FF1321A5A70F00A56CAC /* Stuff.swift */; };
+		9EC0FF1621A5A71C00A56CAC /* Dado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC0FF1521A5A71C00A56CAC /* Dado.swift */; };
+		9EC4DE9221EA958F006D0954 /* FightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC4DE9121EA958F006D0954 /* FightViewController.swift */; };
+		9ECAD13421ADBC77002F2E1D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAD13321ADBC77002F2E1D /* MainViewController.swift */; };
+		9ECAD13621ADCC58002F2E1D /* DungeonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAD13521ADCC58002F2E1D /* DungeonViewController.swift */; };
+		9ECAD13821ADCC72002F2E1D /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAD13721ADCC72002F2E1D /* InventoryViewController.swift */; };
+		9ECAD13A21ADCCC6002F2E1D /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAD13921ADCCC6002F2E1D /* ShopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		9EA3157721A47D20007D28B8 /* DungeonsOfDoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DungeonsOfDoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA3157B21A47D20007D28B8 /* DungeonsOfDoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonsOfDoomUITests.swift; sourceTree = "<group>"; };
 		9EA3157D21A47D20007D28B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EA3158921A48E42007D28B8 /* Heroe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroe.swift; sourceTree = "<group>"; };
+		9EA3158D21A494F9007D28B8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9EC0FF1121A5A26A00A56CAC /* Monstruo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monstruo.swift; sourceTree = "<group>"; };
+		9EC0FF1321A5A70F00A56CAC /* Stuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stuff.swift; sourceTree = "<group>"; };
+		9EC0FF1521A5A71C00A56CAC /* Dado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dado.swift; sourceTree = "<group>"; };
+		9EC4DE9121EA958F006D0954 /* FightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightViewController.swift; sourceTree = "<group>"; };
+		9ECAD13321ADBC77002F2E1D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9ECAD13521ADCC58002F2E1D /* DungeonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonViewController.swift; sourceTree = "<group>"; };
+		9ECAD13721ADCC72002F2E1D /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		9ECAD13921ADCCC6002F2E1D /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +119,20 @@
 			children = (
 				9EA3155B21A47D1F007D28B8 /* AppDelegate.swift */,
 				9EA3155D21A47D1F007D28B8 /* ViewController.swift */,
+				9ECAD13321ADBC77002F2E1D /* MainViewController.swift */,
+				9ECAD13521ADCC58002F2E1D /* DungeonViewController.swift */,
+				9ECAD13721ADCC72002F2E1D /* InventoryViewController.swift */,
+				9ECAD13921ADCCC6002F2E1D /* ShopViewController.swift */,
 				9EA3155F21A47D1F007D28B8 /* Main.storyboard */,
 				9EA3156221A47D20007D28B8 /* Assets.xcassets */,
 				9EA3156421A47D20007D28B8 /* LaunchScreen.storyboard */,
 				9EA3156721A47D20007D28B8 /* Info.plist */,
+				9EA3158921A48E42007D28B8 /* Heroe.swift */,
+				9EA3158D21A494F9007D28B8 /* Item.swift */,
+				9EC0FF1121A5A26A00A56CAC /* Monstruo.swift */,
+				9EC0FF1321A5A70F00A56CAC /* Stuff.swift */,
+				9EC0FF1521A5A71C00A56CAC /* Dado.swift */,
+				9EC4DE9121EA958F006D0954 /* FightViewController.swift */,
 			);
 			path = DungeonsOfDoom;
 			sourceTree = "<group>";
@@ -256,8 +286,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC0FF1421A5A70F00A56CAC /* Stuff.swift in Sources */,
+				9ECAD13621ADCC58002F2E1D /* DungeonViewController.swift in Sources */,
+				9ECAD13A21ADCCC6002F2E1D /* ShopViewController.swift in Sources */,
+				9EC0FF1221A5A26A00A56CAC /* Monstruo.swift in Sources */,
+				9EA3158E21A494F9007D28B8 /* Item.swift in Sources */,
+				9EC4DE9221EA958F006D0954 /* FightViewController.swift in Sources */,
 				9EA3155E21A47D1F007D28B8 /* ViewController.swift in Sources */,
+				9EC0FF1621A5A71C00A56CAC /* Dado.swift in Sources */,
 				9EA3155C21A47D1F007D28B8 /* AppDelegate.swift in Sources */,
+				9ECAD13821ADCC72002F2E1D /* InventoryViewController.swift in Sources */,
+				9EA3158A21A48E42007D28B8 /* Heroe.swift in Sources */,
+				9ECAD13421ADBC77002F2E1D /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9V86K7BN7;
 				INFOPLIST_FILE = DungeonsOfDoom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9V86K7BN7;
 				INFOPLIST_FILE = DungeonsOfDoom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
